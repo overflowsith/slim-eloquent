@@ -1,0 +1,24 @@
+{
+    "name": "overflowsith/slim-eloquent",
+    "type": "library",
+    "description": "Use Eloquent ORM in Slim 3",
+    "keywords": ["slim","framework","database","orm","eloquent"],
+    "homepage": "http://github.com/overflowsith/slim-eloquent",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gabriele Stefanini",
+            "email": "gabriele.stefanini@gmail.com",
+            "homepage": "http://github.com/overflowsith"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "illuminate/database": "5.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Overflowsith\\SlimEloquent\\": "src"
+        }
+    }
+}
