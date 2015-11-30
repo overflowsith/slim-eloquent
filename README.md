@@ -42,3 +42,7 @@ $app->run();
 
 ?>
 ```
+
+### Note
+
+For a full documentations of Eloquent see [http://laravel.com/docs/5.1/eloquent](http://laravel.com/docs/5.1/eloquent)
